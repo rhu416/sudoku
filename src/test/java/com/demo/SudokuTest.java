@@ -6,7 +6,15 @@ import java.nio.file.Paths;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * JUnit test cases for interface Sudoku for checking whether the content
+ * of the file is valid Sudoku Puzzle.
+ * 
+ * @author rhu
+ *
+ */
 public class SudokuTest {
+
 	protected Sudoku sudoku = new SudokuPuzzle();
 
 	/**
